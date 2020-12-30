@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #626267;
+}
+/*Header*********************/
+nav{
+  background: black;
+  display: flex;
+}
+ul{
+  display: flex;
+  width: 40%;
+  margin-left: 55%;
+}
+li{
+  list-style: none;
+  width: 25%;
+  margin: 2px;
+}
+.head a:hover{
+  color: deepskyblue;
+}
+
+h1{
+  color: #FFF;
+}
+a {
+  color: White;
+  text-decoration: none;
+}
+.page-background{
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  background-color: white;
+}
+/****************************************/
+.container{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  border-radius: 20px;
+  background: #8AA8A1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centering{
+  width: 100%;
+  margin-top: 30px;
+}
+input[type="text"], input[type="password"]{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+  outline: none;
+  background: none;
+  border: 2px solid #F5F749;
+  transition: 0.3s;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+  width: 60%;
+  border: 2px solid #EE7B30;
+}
+.container p{
+  color: red;
+}
